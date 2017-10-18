@@ -128,7 +128,7 @@ public class MeetingTimes extends AppCompatActivity {
         but10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "5:00 p.m"", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "5:00 p.m", Toast.LENGTH_SHORT).show();
                 amount += "5:00 p.m";
 
                 Intent intent = new Intent(MeetingTimes.this, PreferredMeetingLocation.class);

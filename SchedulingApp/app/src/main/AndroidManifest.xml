@@ -18,11 +18,6 @@
         </activity>
         <activity android:name=".MeetingTimes" />
         <activity android:name=".PreferredMeetingLocation" />
-<<<<<<< HEAD
-        <activity
-            android:name=".ProfileEditior"
-            android:label="@string/title_activity_profile_editior"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ProfileEditor" />
         <activity
             android:name=".ScheduleCreator"
