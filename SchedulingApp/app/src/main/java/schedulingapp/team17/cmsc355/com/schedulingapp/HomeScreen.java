@@ -17,7 +17,7 @@ public class HomeScreen extends AppCompatActivity {
         butbut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(HomeScreen.this, MeetingTimes.class);
+                Intent intent = new Intent(HomeScreen.this, ProfileEditor.class);
                 startActivity(intent);
             }
         })

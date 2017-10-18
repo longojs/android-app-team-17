@@ -17,7 +17,19 @@
             </intent-filter>
         </activity>
         <activity android:name=".MeetingTimes" />
-        <activity android:name=".PreferredMeetingLocation"></activity>
+        <activity android:name=".PreferredMeetingLocation" />
+        <activity
+            android:name=".ProfileEditior"
+            android:label="@string/title_activity_profile_editior"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ProfileEditor" />
+        <activity
+            android:name=".ScheduleCreator"
+            android:label="@string/title_activity_schedule_creator"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ScheduleEditor" />
+        <activity android:name=".ProfileCreator" />
+        <activity android:name=".InfoEditor"></activity>
     </application>
 
 </manifest>
