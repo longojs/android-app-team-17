@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="schedulingapp.team17.cmsc355.com.schedulingapp.PreferredDay">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preffered Meeting Day"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="104dp"
+        android:layout_alignTop="@+id/button18"
+        android:layout_alignStart="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tuesday"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="165dp"
+        android:layout_alignBottom="@+id/button19"
+        android:layout_alignStart="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wednesday"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="226dp"
+        android:layout_marginStart="29dp"
+        android:layout_alignBaseline="@+id/button20"
+        android:layout_alignBottom="@+id/button20"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thursday"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="287dp"
+        android:layout_alignBaseline="@+id/button21"
+        android:layout_alignBottom="@+id/button21"
+        android:layout_alignStart="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friday"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="347dp"
+        android:layout_alignBaseline="@+id/button22"
+        android:layout_alignBottom="@+id/button22"
+        android:layout_alignStart="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saturday"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="405dp"
+        android:layout_alignBottom="@+id/button23"
+        android:layout_alignStart="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunday"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="458dp"
+        android:layout_alignBottom="@+id/button24"
+        android:layout_alignStart="@+id/textView26" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="84dp"
+        android:layout_height="36dp"
+        android:onClick="button30"
+        android:text="select"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="92dp"
+        android:layout_above="@+id/button19"
+        android:layout_alignStart="@+id/button19"
+        android:layout_marginBottom="19dp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="84dp"
+        android:layout_height="36dp"
+        android:onClick="button31"
+        android:text="select"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="153dp"
+        android:layout_above="@+id/button20"
+        android:layout_alignStart="@+id/button20"
+        android:layout_marginBottom="35dp" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="84dp"
+        android:layout_height="36dp"
+        android:onClick="button32"
+        android:text="select"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="214dp"
+        android:layout_above="@+id/button21"
+        android:layout_alignStart="@+id/button21"
+        android:layout_marginBottom="31dp" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="84dp"
+        android:layout_height="36dp"
+        android:onClick="button34"
+        android:text="select"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="335dp"
+        android:layout_above="@+id/button22"
+        android:layout_alignStart="@+id/button22"
+        android:layout_marginBottom="27dp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="84dp"
+        android:layout_height="36dp"
+        android:onClick="button33"
+        android:text="select"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="275dp"
+        android:layout_above="@+id/button23"
+        android:layout_alignStart="@+id/button23"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="84dp"
+        android:layout_height="36dp"
+        android:onClick="button35"
+        android:text="select"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="393dp"
+        android:layout_above="@+id/button24"
+        android:layout_alignStart="@+id/button24"
+        android:layout_marginBottom="26dp" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="84dp"
+        android:layout_height="36dp"
+        android:onClick="button36"
+        android:text="select"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="446dp"
+        android:layout_marginEnd="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="39dp" />
+</RelativeLayout>

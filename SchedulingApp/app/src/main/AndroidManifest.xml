@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".MeetingTimes" />
         <activity android:name=".PreferredMeetingLocation" />
+<<<<<<< HEAD
         <activity
             android:name=".ProfileEditior"
             android:label="@string/title_activity_profile_editior"
@@ -30,6 +31,9 @@
         <activity android:name=".ScheduleEditor" />
         <activity android:name=".ProfileCreator" />
         <activity android:name=".InfoEditor"></activity>
+=======
+        <activity android:name=".PreferredDay"></activity>
+>>>>>>> a45a6d738ad8e4883bd2f1658a950e4d3acd2689
     </application>
 
 </manifest>

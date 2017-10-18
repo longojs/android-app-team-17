@@ -5,9 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MeetingTimes extends AppCompatActivity {
-
+    String amount = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,6 +18,11 @@ public class MeetingTimes extends AppCompatActivity {
         but1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "8:00 a.m", Toast.LENGTH_SHORT).show();
+                amount += "8:00 a.m";
+
+
+
                 Intent intent = new Intent(MeetingTimes.this, PreferredMeetingLocation.class);
                 startActivity(intent);
             }
@@ -26,6 +32,9 @@ public class MeetingTimes extends AppCompatActivity {
         but2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "9:00 a.m", Toast.LENGTH_SHORT).show();
+                amount += "9:00 a.m";
+
                 Intent intent = new Intent(MeetingTimes.this, PreferredMeetingLocation.class);
                 startActivity(intent);
             }
@@ -35,6 +44,9 @@ public class MeetingTimes extends AppCompatActivity {
         but3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "10:00 a.m", Toast.LENGTH_SHORT).show();
+                amount += "10:00 a.m";
+
                 Intent intent = new Intent(MeetingTimes.this, PreferredMeetingLocation.class);
                 startActivity(intent);
             }
@@ -44,6 +56,9 @@ public class MeetingTimes extends AppCompatActivity {
         but4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "11:00 a.m", Toast.LENGTH_SHORT).show();
+                amount += "11:00 a.m";
+
                 Intent intent = new Intent(MeetingTimes.this, PreferredMeetingLocation.class);
                 startActivity(intent);
             }
@@ -53,6 +68,9 @@ public class MeetingTimes extends AppCompatActivity {
         but5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "12:00 a.m", Toast.LENGTH_SHORT).show();
+                amount += "12:00 a.m";
+
                 Intent intent = new Intent(MeetingTimes.this, PreferredMeetingLocation.class);
                 startActivity(intent);
             }
@@ -62,6 +80,9 @@ public class MeetingTimes extends AppCompatActivity {
         but6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "1:00 p.m", Toast.LENGTH_SHORT).show();
+                amount += "1:00 p.m";
+
                 Intent intent = new Intent(MeetingTimes.this, PreferredMeetingLocation.class);
                 startActivity(intent);
             }
@@ -71,6 +92,9 @@ public class MeetingTimes extends AppCompatActivity {
         but7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "2:00 p.m", Toast.LENGTH_SHORT).show();
+                amount += "2:00 p.m";
+
                 Intent intent = new Intent(MeetingTimes.this, PreferredMeetingLocation.class);
                 startActivity(intent);
             }
@@ -80,6 +104,9 @@ public class MeetingTimes extends AppCompatActivity {
         but8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "3:00 p.m", Toast.LENGTH_SHORT).show();
+                amount += "3:00 p.m";
+
                 Intent intent = new Intent(MeetingTimes.this, PreferredMeetingLocation.class);
                 startActivity(intent);
             }
@@ -89,6 +116,9 @@ public class MeetingTimes extends AppCompatActivity {
         but9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "4:00 p.m", Toast.LENGTH_SHORT).show();
+                amount += "4:00 p.m";
+
                 Intent intent = new Intent(MeetingTimes.this, PreferredMeetingLocation.class);
                 startActivity(intent);
             }
@@ -98,6 +128,9 @@ public class MeetingTimes extends AppCompatActivity {
         but10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "5:00 p.m"", Toast.LENGTH_SHORT).show();
+                amount += "5:00 p.m";
+
                 Intent intent = new Intent(MeetingTimes.this, PreferredMeetingLocation.class);
                 startActivity(intent);
             }
@@ -107,6 +140,9 @@ public class MeetingTimes extends AppCompatActivity {
         but11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "6:00 p.m", Toast.LENGTH_SHORT).show();
+                amount += "6:00 p.m";
+
                 Intent intent = new Intent(MeetingTimes.this, PreferredMeetingLocation.class);
                 startActivity(intent);
             }
@@ -116,6 +152,9 @@ public class MeetingTimes extends AppCompatActivity {
         but12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "7:00 p.m", Toast.LENGTH_SHORT).show();
+                amount += "7:00 p.m";
+
                 Intent intent = new Intent(MeetingTimes.this, PreferredMeetingLocation.class);
                 startActivity(intent);
             }
@@ -125,6 +164,9 @@ public class MeetingTimes extends AppCompatActivity {
         but13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "8:00 p.m", Toast.LENGTH_SHORT).show();
+                amount += "8:00 p.m";
+
                 Intent intent = new Intent(MeetingTimes.this, PreferredMeetingLocation.class);
                 startActivity(intent);
             }
