@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MeetingTimes" />
-        <activity android:name=".PreferredMeetingLocation"></activity>
+        <activity android:name=".PreferredMeetingLocation" />
+        <activity android:name=".PreferredDay"></activity>
     </application>
 
 </manifest>
