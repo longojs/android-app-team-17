@@ -22,5 +22,15 @@ public class HomeScreen extends AppCompatActivity {
             }
         })
         ;
+
+        Button butbut2 = (Button) findViewById(R.id.button27);
+        butbut2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeScreen.this, ProfileEditor.class);
+                startActivity(intent);
+            }
+        })
+        ;
     }
 }
