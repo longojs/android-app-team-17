@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "391389783154",
+    "firebase_url": "https://chatapp-75bf4.firebaseio.com",
+    "project_id": "chatapp-75bf4"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391389783154:android:7c349d737f6f215d",
+        "android_client_info": {
+          "package_name": "com.example.rodolfo.androidchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391389783154-doa8s7gg8fcd07k2khir5hnkhevkci0g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rodolfo.androidchatapp",
+            "certificate_hash": "e072d9eb7fcb3eb5f0df1b11ab457a5751cf7cfd"
+          }
+        },
+        {
+          "client_id": "391389783154-tnj969dbo62u4estcnktn79mbgl7ih2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHl1JAY3ceOv-ZYVrnz2-FZm62cZMBA_4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391389783154-tnj969dbo62u4estcnktn79mbgl7ih2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
