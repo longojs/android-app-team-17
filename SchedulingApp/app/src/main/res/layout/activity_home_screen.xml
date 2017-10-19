@@ -16,7 +16,8 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_above="@+id/button14"
         android:layout_alignStart="@+id/button14"
-        android:layout_marginBottom="154dp" />
+        android:layout_marginBottom="154dp"
+        android:id="@+id/textView29" />
 
     <Button
         android:id="@+id/button14"
@@ -39,5 +40,15 @@
         android:layout_marginBottom="11dp"
         android:onClick="butbut2"
         android:text="Profile" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button27"
+        android:layout_alignStart="@+id/button27"
+        android:layout_marginBottom="14dp"
+        android:onClick="butbut2"
+        android:text="Button" />
 
 </RelativeLayout>

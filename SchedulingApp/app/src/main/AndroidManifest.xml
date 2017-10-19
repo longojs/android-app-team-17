@@ -25,10 +25,12 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ScheduleEditor" />
         <activity android:name=".ProfileCreator" />
-        <activity android:name=".InfoEditor"></activity>
-=======
-        <activity android:name=".PreferredDay"></activity>
->>>>>>> a45a6d738ad8e4883bd2f1658a950e4d3acd2689
+        <activity android:name=".InfoEditor" />
+        =======
+        <activity android:name=".PreferredDay" />
+        >>>>>>> a45a6d738ad8e4883bd2f1658a950e4d3acd2689
+        <activity android:name=".MainActivityChatApp" />
+        <activity android:name=".ChatMessage"></activity>
     </application>
 
 </manifest>
