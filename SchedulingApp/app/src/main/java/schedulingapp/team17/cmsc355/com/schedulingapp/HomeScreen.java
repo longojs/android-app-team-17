@@ -32,6 +32,7 @@ public class HomeScreen extends AppCompatActivity {
             }
         })
         ;
+
         Button butbut3 = (Button) findViewById(R.id.button26);
         butbut3.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -51,7 +51,10 @@ public class ProfileScreenTest {
         ViewInteraction appCompatButton3 = onView(
                 allOf(withId(R.id.submitButton), withText("Create "), isDisplayed()));
         appCompatButton3.perform(click());
+    }
 
+    @Test
+            public void daySetTest(){
         ViewInteraction appCompatButton4 = onView(
                 allOf(withId(R.id.button18), withText("Design Schedule"), isDisplayed()));
         appCompatButton4.perform(click());
