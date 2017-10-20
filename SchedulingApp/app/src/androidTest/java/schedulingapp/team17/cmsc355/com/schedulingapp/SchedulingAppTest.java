@@ -1,6 +1,6 @@
 package schedulingapp.team17.cmsc355.com.schedulingapp;
 
-//Test for User Story 7
+//Test for User Story 3
 import android.support.test.espresso.ViewInteraction;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
