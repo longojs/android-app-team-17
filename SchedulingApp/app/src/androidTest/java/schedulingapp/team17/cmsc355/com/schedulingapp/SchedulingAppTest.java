@@ -27,7 +27,7 @@ public class SchedulingAppTest {
     @Test
     public void schedulingAppTest() {
         ViewInteraction appCompatButton = onView(
-                allOf(withId(R.id.button14), withText("Button"), isDisplayed()));
+                allOf(withId(R.id.btnFindTime), withText("Button"), isDisplayed()));
         appCompatButton.perform(click());
 
         ViewInteraction appCompatButton2 = onView(
@@ -37,7 +37,7 @@ public class SchedulingAppTest {
     @Test
     public void MeetingTimeTest() {
         ViewInteraction appCompatButton = onView(
-                allOf(withId(R.id.button14), withText("Button"), isDisplayed()));
+                allOf(withId(R.id.btnFindTime), withText("Button"), isDisplayed()));
         appCompatButton.perform(click());
 
         ViewInteraction appCompatButton2 = onView(
@@ -52,7 +52,7 @@ public class SchedulingAppTest {
      @Test
     public void MeetingDayTest() {
         ViewInteraction appCompatButton = onView(
-                allOf(withId(R.id.button14), withText("Button"), isDisplayed()));
+                allOf(withId(R.id.btnFindTime), withText("Button"), isDisplayed()));
         appCompatButton.perform(click());
 
         ViewInteraction appCompatButton2 = onView(

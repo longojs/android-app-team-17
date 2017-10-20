@@ -33,7 +33,7 @@ public class ProfileScreenTest {
     @Test
     public void profileScreenTest() {
         ViewInteraction appCompatButton = onView(
-                allOf(withId(R.id.button27), withText("Profile"), isDisplayed()));
+                allOf(withId(R.id.btnProfile), withText("Profile"), isDisplayed()));
         appCompatButton.perform(click());
 
         ViewInteraction appCompatButton2 = onView(

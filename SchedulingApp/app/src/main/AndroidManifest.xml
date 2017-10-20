@@ -30,7 +30,12 @@
         <activity android:name=".PreferredDay" />
         >>>>>>> a45a6d738ad8e4883bd2f1658a950e4d3acd2689
         <activity android:name=".MainActivityChatApp" />
-        <activity android:name=".ChatMessage"></activity>
+        <activity android:name=".ChatMessage" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Calendar" />
+        <activity android:name=".Directory" />
+        <activity android:name=".Alarms" />
+        <activity android:name=".FindTime"></activity>
     </application>
 
 </manifest>
