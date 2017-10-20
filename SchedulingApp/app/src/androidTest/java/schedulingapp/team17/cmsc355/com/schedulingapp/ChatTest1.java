@@ -42,4 +42,36 @@ public class ChatTest1 {
 
     }
 
+    @Test
+    public void chatTest2() {
+        ViewInteraction appCompatButton = onView(
+                allOf(withId(R.id.button26), withText("Button"), isDisplayed()));
+        appCompatButton.perform(click());
+
+        ViewInteraction appCompatEditText = onView(
+                allOf(withId(R.id.email), isDisplayed()));
+        appCompatEditText.perform(replaceText("tinocobeniter@mymail.vcu.edu"), closeSoftKeyboard());
+
+        ViewInteraction appCompatButton2 = onView(
+                allOf(withId(R.id.button_ok), withText("Next"), isDisplayed()));
+        appCompatButton2.perform(click());
+
+    }
+
+    @Test
+    public void chatTest3() {
+        ViewInteraction appCompatButton = onView(
+                allOf(withId(R.id.button26), withText("Button"), isDisplayed()));
+        appCompatButton.perform(click());
+
+        ViewInteraction appCompatEditText = onView(
+                allOf(withId(R.id.email), isDisplayed()));
+        appCompatEditText.perform(replaceText("not a mail"), closeSoftKeyboard());
+
+        ViewInteraction appCompatButton2 = onView(
+                allOf(withId(R.id.button_ok), withText("Next"), isDisplayed()));
+        appCompatButton2.perform(click());
+
+    }
+
 }
