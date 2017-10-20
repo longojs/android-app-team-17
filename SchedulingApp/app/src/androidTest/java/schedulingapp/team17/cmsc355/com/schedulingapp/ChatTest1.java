@@ -33,7 +33,7 @@ public class ChatTest1 {
     @Test
     public void chatTest1() {
         ViewInteraction appCompatButton = onView(
-                allOf(withId(R.id.button26), withText("Button"), isDisplayed()));
+                allOf(withId(R.id.btnMessages), withText("Button"), isDisplayed()));
         appCompatButton.perform(click());
 
         ViewInteraction appCompatEditText = onView(
@@ -49,7 +49,7 @@ public class ChatTest1 {
     @Test
     public void chatTest2() {
         ViewInteraction appCompatButton = onView(
-                allOf(withId(R.id.button26), withText("Button"), isDisplayed()));
+                allOf(withId(R.id.btnMessages), withText("Button"), isDisplayed()));
         appCompatButton.perform(click());
 
         ViewInteraction appCompatEditText = onView(
@@ -65,7 +65,7 @@ public class ChatTest1 {
     @Test
     public void chatTest3() {
         ViewInteraction appCompatButton = onView(
-                allOf(withId(R.id.button26), withText("Button"), isDisplayed()));
+                allOf(withId(R.id.btnMessages), withText("Button"), isDisplayed()));
         appCompatButton.perform(click());
 
         ViewInteraction appCompatEditText = onView(
