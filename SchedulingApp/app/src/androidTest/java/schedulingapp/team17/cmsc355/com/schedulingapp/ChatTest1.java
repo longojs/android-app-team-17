@@ -1,5 +1,9 @@
 package schedulingapp.team17.cmsc355.com.schedulingapp;
 
+//Tests for the Chat box - USer Storie 8
+//first is for a user with an account already registered in the firebase
+//Second one is for a user with out an account registered in the firebase
+//Third one is for when you don't get it in an email
 
 import android.support.test.espresso.ViewInteraction;
 import android.support.test.rule.ActivityTestRule;
