@@ -17,7 +17,7 @@ public class PreferredDay extends AppCompatActivity {
         but30.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(PreferredDay.this, PreferredDay.class);
+                Intent intent = new Intent(PreferredDay.this, HomeScreen.class);
                 startActivity(intent);
 
             }
