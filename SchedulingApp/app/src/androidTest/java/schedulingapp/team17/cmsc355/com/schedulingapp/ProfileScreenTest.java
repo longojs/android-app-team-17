@@ -33,7 +33,7 @@ public class ProfileScreenTest {
     @Test
     public void profileScreenTest() {
         ViewInteraction appCompatButton = onView(
-                allOf(withId(R.id.button27), withText("Profile"), isDisplayed()));
+                allOf(withId(R.id.btnProfile), withText("Profile"), isDisplayed()));
         appCompatButton.perform(click());
 
         ViewInteraction appCompatButton2 = onView(
@@ -51,10 +51,14 @@ public class ProfileScreenTest {
         ViewInteraction appCompatButton3 = onView(
                 allOf(withId(R.id.submitButton), withText("Create "), isDisplayed()));
         appCompatButton3.perform(click());
+<<<<<<< HEAD
+
+=======
     }
 
     @Test
             public void daySetTest(){
+>>>>>>> fc9b004c0b2aed74fe007c44bf54147bdedd94f5
         ViewInteraction appCompatButton4 = onView(
                 allOf(withId(R.id.button18), withText("Design Schedule"), isDisplayed()));
         appCompatButton4.perform(click());
