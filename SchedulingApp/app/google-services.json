@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "738828295534",
+    "firebase_url": "https://chat-67f38.firebaseio.com",
+    "project_id": "chat-67f38",
+    "storage_bucket": "chat-67f38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738828295534:android:475ce4b5900c3573",
+        "android_client_info": {
+          "package_name": "schedulingapp.team17.cmsc355.com.schedulingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738828295534-d4jdpo6nqgj4o1ssho4bfilhbdsh0org.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "schedulingapp.team17.cmsc355.com.schedulingapp",
+            "certificate_hash": "e072d9eb7fcb3eb5f0df1b11ab457a5751cf7cfd"
+          }
+        },
+        {
+          "client_id": "738828295534-5fbrmkepv72dq1p7luaae7sk8voorejp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUZGmp70INv6QqdjHs6Iy-pXppxR5wcWo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738828295534-5fbrmkepv72dq1p7luaae7sk8voorejp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
