@@ -20,9 +20,9 @@ import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.Matchers.allOf;
 
-//**********************************
-//This test belongs to User Story 5*
-//**********************************
+//***************************************
+//**These tests belongs to User Story 5**
+//***************************************
 @LargeTest
 @RunWith(AndroidJUnit4.class)
 public class ProfileScreenTest {
@@ -51,14 +51,13 @@ public class ProfileScreenTest {
         ViewInteraction appCompatButton3 = onView(
                 allOf(withId(R.id.submitButton), withText("Create "), isDisplayed()));
         appCompatButton3.perform(click());
-<<<<<<< HEAD
 
-=======
+
     }
 
     @Test
             public void daySetTest(){
->>>>>>> fc9b004c0b2aed74fe007c44bf54147bdedd94f5
+
         ViewInteraction appCompatButton4 = onView(
                 allOf(withId(R.id.button18), withText("Design Schedule"), isDisplayed()));
         appCompatButton4.perform(click());
