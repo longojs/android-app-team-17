@@ -12,13 +12,13 @@ public class ProfileEditor extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_editor);
 
-        Bundle extras = getIntent().getExtras();
+        //Bundle extras = getIntent().getExtras();
 
-        UserProfile mainUser = new UserProfile();
+        //UserProfile mainUser = new UserProfile();
 
-        mainUser.setName(extras.getString("Name"));
-        mainUser.setEmail(extras.getString("Email"));
-        mainUser.addEvent(extras.getString("StartTime"), extras.getString("Day"), extras.getString("EndTime"));
+        //mainUser.setName(extras.getString("Name"));
+       // mainUser.setEmail(extras.getString("Email"));
+       // mainUser.addEvent(extras.getString("StartTime"), extras.getString("Day"), extras.getString("EndTime"));
     }
 
     public void createProfile(View view) {

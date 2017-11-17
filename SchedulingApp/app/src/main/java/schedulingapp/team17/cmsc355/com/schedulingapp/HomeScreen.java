@@ -54,7 +54,7 @@ public class HomeScreen extends AppCompatActivity {
         profile.setOnClickListener(new View.OnClickListener() { // Button click method
 
             public void onClick(View view) {
-                Intent openProfileEditor = new Intent(HomeScreen.this, ProfileEditor.class); //Intent object to open main screen
+                Intent openProfileEditor = new Intent(HomeScreen.this, ProfileEditor.class);//Intent object to open main screen
                 startActivity(openProfileEditor);
             }
         });
