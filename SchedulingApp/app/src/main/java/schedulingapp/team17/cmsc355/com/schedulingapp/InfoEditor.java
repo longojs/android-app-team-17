@@ -9,7 +9,8 @@ import android.widget.EditText;
 
 public class InfoEditor extends AppCompatActivity {
 
-    String Name, Email;
+    String name;
+    String email;
 
     EditText nameInput;
     EditText emailInput;
@@ -23,13 +24,16 @@ public class InfoEditor extends AppCompatActivity {
         nameInput = (EditText) findViewById(R.id.nameInput);
         emailInput = (EditText) findViewById(R.id.emailInput);
 
-        submitButton= (Button) findViewById(R.id.submitButton);
+        submitButton = (Button) findViewById(R.id.submitButton);
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Name=nameInput.getText().toString();
-                Email=emailInput.getText().toString();
-                startActivity(new Intent(InfoEditor.this, ProfileEditor.class));
+            public void onClick(View view) {
+                name = nameInput.getText().toString();
+                email = emailInput.getText().toString();
+                Intent userData = new Intent(InfoEditor.this, ProfileEditor.class);
+                userData.putExtra("Name", name);
+                userData.putExtra("Email", email);
+                startActivity(userData);
                 //on Next Iteration, this button will overwrite the data on the person's profile
             }
         });

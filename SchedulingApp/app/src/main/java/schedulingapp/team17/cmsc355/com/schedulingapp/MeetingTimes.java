@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 public class MeetingTimes extends AppCompatActivity {
     String amount = "";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
