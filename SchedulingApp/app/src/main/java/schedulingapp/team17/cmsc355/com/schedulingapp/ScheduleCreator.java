@@ -10,15 +10,13 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class ScheduleCreator extends AppCompatActivity {
-<<<<<<< HEAD
+
 
     String day;
     String startTime;
     String endTime;
-=======
+
     View view;
-    String day, startTime, endTime;
->>>>>>> 389dddcc0f8b039e3faab81cc086a5ee45827896
 
     EditText dayInput;
     EditText startTimeInput;
