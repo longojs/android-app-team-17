@@ -28,10 +28,13 @@ public class ProfileCreator extends AppCompatActivity {
         setContentView(R.layout.activity_profile_creator);
         nameInput = (EditText) findViewById(R.id.nameInput);
         emailInput = (EditText) findViewById(R.id.emailInput);
+        view = this.getWindow().getDecorView();
         submitButton = (Button) findViewById(R.id.submitButton);
-        submitButton.setOnClickListener(new View.OnClickListener() {
+        submitButton.setOnClickListener(new View.OnClickListener(){
+
+
             @Override
-            public void onClick(View temp) {
+            public void onClick(View v) {
                 name = nameInput.getText().toString();
                 email = emailInput.getText().toString();
                 UserProfile profile = new UserProfile(name, email);
@@ -40,7 +43,6 @@ public class ProfileCreator extends AppCompatActivity {
                 userData.putExtra("Email", email);
                 startActivity(userData);
 
-                view = ProfileCreator.this.getWindow().getDecorView();
             }
 
         });
