@@ -7,11 +7,22 @@ import android.view.View;
 import android.widget.Button;
 
 public class HomeScreen extends AppCompatActivity {
-
+    View view;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
+
+
+
+        view = this.getWindow().getDecorView();
+        //view.setBackgroundResource(R.color.blue);
+
+
+
+
+
+
 
 
         //Find a Time Button
@@ -112,6 +123,35 @@ public class HomeScreen extends AppCompatActivity {
                 startActivity(openSettings);
             }
         });
+
+    }
+    public void goRed(View v)
+    {
+        view.setBackgroundResource(R.color.red);
+
+    }
+
+    public void goBlue(View v)
+    {
+        view.setBackgroundResource(R.color.blue);
+
+    }
+
+    public void goTeal(View v)
+    {
+        view.setBackgroundResource(R.color.teal);
+
+    }
+
+    public void goPurple(View v)
+    {
+        view.setBackgroundResource(R.color.purple);
+
+    }
+
+    public void goNightMode(View v)
+    {
+        view.setBackgroundResource(R.color.nightmode);
 
     }
 }
