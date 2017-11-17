@@ -11,27 +11,39 @@ public class ProfileEditor extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_editor);
+
+        Bundle extras = getIntent().getExtras();
+
+        UserProfile mainUser = new UserProfile();
+
+        mainUser.setName(extras.getString("Name"));
+        mainUser.setEmail(extras.getString("Email"));
+        mainUser.addEvent(extras.getString("StartTime"), extras.getString("Day"), extras.getString("EndTime"));
     }
 
-public void createProfile(View view){
-    startActivity(new Intent(ProfileEditor.this, ProfileCreator.class));
-}
+    public void createProfile(View view) {
+        startActivity(new Intent(ProfileEditor.this, ProfileCreator.class));
+    }
 
-public void editProfile(View view){
-    startActivity(new Intent(ProfileEditor.this, InfoEditor.class));
-}
+    public void editProfile(View view) {
+        startActivity(new Intent(ProfileEditor.this, InfoEditor.class));
+    }
 
-public void designSchedule(View view){
-    startActivity(new Intent(ProfileEditor.this, ScheduleCreator.class));
-}
+    public void designSchedule(View view) {
+        startActivity(new Intent(ProfileEditor.this, ScheduleCreator.class));
+    }
 
-public void editSchedule(View view){
-    startActivity(new Intent(ProfileEditor.this, ScheduleEditor.class));
-}
+    public void editSchedule(View view) {
+        startActivity(new Intent(ProfileEditor.this, ScheduleEditor.class));
+    }
 
-public void returnToHome(View view){
-    startActivity(new Intent(ProfileEditor.this, HomeScreen.class));
-}
+    public void returnToHome(View view) {
+        startActivity(new Intent(ProfileEditor.this, HomeScreen.class));
+    }
+
+
+
+
 
 
 

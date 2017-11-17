@@ -20,9 +20,9 @@ import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.Matchers.allOf;
 
-//**********************************
-//This test belongs to User Story 5*
-//**********************************
+//***************************************
+//**These tests belongs to User Story 5**
+//***************************************
 @LargeTest
 @RunWith(AndroidJUnit4.class)
 public class ProfileScreenTest {
@@ -51,6 +51,7 @@ public class ProfileScreenTest {
         ViewInteraction appCompatButton3 = onView(
                 allOf(withId(R.id.submitButton), withText("Create "), isDisplayed()));
         appCompatButton3.perform(click());
+
 
     }
 

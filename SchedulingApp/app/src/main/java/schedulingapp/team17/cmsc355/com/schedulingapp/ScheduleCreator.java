@@ -10,8 +10,15 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class ScheduleCreator extends AppCompatActivity {
+<<<<<<< HEAD
+
+    String day;
+    String startTime;
+    String endTime;
+=======
     View view;
     String day, startTime, endTime;
+>>>>>>> 389dddcc0f8b039e3faab81cc086a5ee45827896
 
     EditText dayInput;
     EditText startTimeInput;
@@ -28,28 +35,28 @@ public class ScheduleCreator extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule_creator);
         dayInput = (EditText) findViewById(R.id.dayInput);
-        startTimeInput= (EditText) findViewById(R.id.startTimeInput);
-        endTimeInput= (EditText) findViewById(R.id.endTimeInput);
+        startTimeInput = (EditText) findViewById(R.id.startTimeInput);
+        endTimeInput = (EditText) findViewById(R.id.endTimeInput);
 
-        submitDay= (Button) findViewById(R.id.daySubmit);
-        submitStartTime= (Button) findViewById(R.id.startTimeSubmit);
-        submitEndTime= (Button) findViewById(R.id.endTimeSubmit);
+        submitDay = (Button) findViewById(R.id.daySubmit);
+        submitStartTime = (Button) findViewById(R.id.startTimeSubmit);
+        submitEndTime = (Button) findViewById(R.id.endTimeSubmit);
 
         submitDay.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                day=dayInput.getText().toString();
+            public void onClick(View view) {
+                day = dayInput.getText().toString();
             }
         });
         submitStartTime.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 startTime = startTimeInput.getText().toString();
             }
         });
         submitEndTime.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 endTime = endTimeInput.getText().toString();
             }
         });
@@ -59,13 +66,19 @@ public class ScheduleCreator extends AppCompatActivity {
 
 
 
-    public void saveAndCreateNew(View view){
+    public void saveAndCreateNew(View view) {
         startActivity(new Intent(ScheduleCreator.this, ScheduleCreator.class));
     }
     //currently operates correctly, final method will save information decided above into an event class
 
-    public void saveAndLeaveScreen(View view){
-        startActivity(new Intent(ScheduleCreator.this, ProfileEditor.class));
+    public void saveAndLeaveScreen(View view) {
+        Intent userData = new Intent(ScheduleCreator.this, ProfileEditor.class);
+
+        userData.putExtra("Day", day);
+        userData.putExtra("StartTime", startTime);
+        userData.putExtra("EndTime", endTime);
+
+        startActivity(userData);
     }
     //currently operates correctly, final method will save information decided above into an event class
 
