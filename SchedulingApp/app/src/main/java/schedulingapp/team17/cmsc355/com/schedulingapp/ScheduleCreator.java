@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class ScheduleCreator extends AppCompatActivity {
-
+    View view;
     String day, startTime, endTime;
 
     EditText dayInput;
@@ -24,6 +24,7 @@ public class ScheduleCreator extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        view = this.getWindow().getDecorView();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule_creator);
         dayInput = (EditText) findViewById(R.id.dayInput);
@@ -68,5 +69,28 @@ public class ScheduleCreator extends AppCompatActivity {
     }
     //currently operates correctly, final method will save information decided above into an event class
 
+    public void goOrange(View v)
+    {
+        view.setBackgroundResource(R.color.orange);
+
+    }
+
+    public void goDeepOrange(View v)
+    {
+        view.setBackgroundResource(R.color.deep_orange);
+
+    }
+
+    public void goPink(View v)
+    {
+        view.setBackgroundResource(R.color.pink);
+
+    }
+
+    public void goGreen(View v)
+    {
+        view.setBackgroundResource(R.color.green);
+
+    }
 
 }

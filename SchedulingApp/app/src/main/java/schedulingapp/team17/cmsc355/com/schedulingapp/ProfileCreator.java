@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class ProfileCreator extends AppCompatActivity {
-
+    View view;
     String Name, Email;
 
     EditText nameInput;
@@ -23,12 +23,14 @@ public class ProfileCreator extends AppCompatActivity {
         nameInput = (EditText) findViewById(R.id.nameInput);
         emailInput = (EditText) findViewById(R.id.emailInput);
 
+        view = this.getWindow().getDecorView();
+
         submitButton= (Button) findViewById(R.id.submitButton);
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Name=nameInput.getText().toString();
-                Email=emailInput.getText().toString();
+                Name = nameInput.getText().toString();
+                Email = emailInput.getText().toString();
                 UserProfile profile = new UserProfile(Name, Email);
                 startActivity(new Intent(ProfileCreator.this, ProfileEditor.class));
             }
@@ -36,5 +38,9 @@ public class ProfileCreator extends AppCompatActivity {
 
     }
 
+    public void goNightMode (View v)
+    {
+        view.setBackgroundResource(R.color.nightmode);
+    }
 
 }
