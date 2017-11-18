@@ -7,7 +7,9 @@ import android.view.View;
 import android.widget.Button;
 
 public class HomeScreen extends AppCompatActivity {
+
     View view;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -110,32 +112,28 @@ public class HomeScreen extends AppCompatActivity {
         });
 
     }
-    public void goRed(View v)
-    {
+
+    public void goRed(View temp) {
         view.setBackgroundResource(R.color.red);
 
     }
 
-    public void goBlue(View v)
-    {
+    public void goBlue(View temp) {
         view.setBackgroundResource(R.color.blue);
 
     }
 
-    public void goTeal(View v)
-    {
+    public void goTeal(View temp) {
         view.setBackgroundResource(R.color.teal);
 
     }
 
-    public void goPurple(View v)
-    {
+    public void goPurple(View temp) {
         view.setBackgroundResource(R.color.purple);
 
     }
 
-    public void goNightMode(View v)
-    {
+    public void goNightMode(View view) {
         view.setBackgroundResource(R.color.nightmode);
 
     }

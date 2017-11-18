@@ -61,9 +61,9 @@ public class ScheduleEditor extends AppCompatActivity {
     public void saveAndReturn(View view) {
         Intent userData = new Intent(ScheduleEditor.this, ProfileEditor.class);
 
-        userData.putExtra("StartTime", startTime);
-        userData.putExtra("Day", day);
-        userData.putExtra("EndTime", endTime);
+        //userData.putExtra("StartTime", startTime);
+        //userData.putExtra("Day", day);
+        //userData.putExtra("EndTime", endTime);
 
         startActivity(userData);
     }
