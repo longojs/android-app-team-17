@@ -16,10 +16,9 @@ public class Settings extends AppCompatActivity {
         //Button from Settings to Time Differences
         Button buttonSetToTimeDiff = (Button) findViewById(R.id.btnTimeDiff); // Instantiates button object and casts using XML button ID
 
-        buttonSetToTimeDiff.setOnClickListener(new View.OnClickListener() // Button click method
-        {
-            public void onClick(View view)
-            {
+        buttonSetToTimeDiff.setOnClickListener(new View.OnClickListener() { // Button click method
+
+            public void onClick(View view) {
                 Intent openTimeDifferences = new Intent(Settings.this, TimeDifferences.class); //Intent object to open main screen
                 startActivity(openTimeDifferences);
             }

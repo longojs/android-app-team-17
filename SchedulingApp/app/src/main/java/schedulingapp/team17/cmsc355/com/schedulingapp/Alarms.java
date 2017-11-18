@@ -17,10 +17,10 @@ import java.util.Calendar;
 
 public class Alarms extends AppCompatActivity {
 
-    Button btnSetCD;
-    EditText timeCD;
+    Button btnSetCd;
+    EditText timeCd;
     TimePicker timePicker;
-    Button btnSetAlTP;
+    Button btnSetAlTp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,18 +28,18 @@ public class Alarms extends AppCompatActivity {
         setContentView(R.layout.activity_alarms);
 
         //MAP COUNTDOWN ALARM  BUTTON AND TIMPICKER
-        btnSetCD = (Button) findViewById(R.id.alarmCD);
-        timeCD = (EditText) findViewById(R.id.alarmInputCD);
+        btnSetCd = (Button) findViewById(R.id.alarmCD);
+        timeCd = (EditText) findViewById(R.id.alarmInputCD);
 
         //MAP REGULAR ALARM BUTTON AND TIMEPICKER
-        btnSetAlTP = (Button) findViewById(R.id.btnAlarmTP);
+        btnSetAlTp = (Button) findViewById(R.id.btnAlarmTP);
         timePicker = (TimePicker) findViewById(R.id.timePicker);
 
         //COUNTDOWN BUTTON
-        btnSetCD.setOnClickListener(new View.OnClickListener() {
+        btnSetCd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int time = Integer.parseInt(timeCD.getText().toString());
+                int time = Integer.parseInt(timeCd.getText().toString());
                 Intent in = new Intent(Alarms.this, AlarmReciever.class);
                 PendingIntent penInt = PendingIntent.getBroadcast(getApplicationContext(), 0, in, 0);
                 AlarmManager al = (AlarmManager) getSystemService(ALARM_SERVICE);
@@ -48,7 +48,7 @@ public class Alarms extends AppCompatActivity {
         });
 
         //REGULAR ALARM
-        btnSetAlTP.setOnClickListener(new View.OnClickListener() {
+        btnSetAlTp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //WE use the calendar to put into form the info

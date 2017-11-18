@@ -30,17 +30,17 @@ public class ProfileCreator extends AppCompatActivity {
         emailInput = (EditText) findViewById(R.id.emailInput);
         view = this.getWindow().getDecorView();
         submitButton = (Button) findViewById(R.id.submitButton);
-        submitButton.setOnClickListener(new View.OnClickListener(){
+        submitButton.setOnClickListener(new View.OnClickListener() {
 
 
             @Override
-            public void onClick(View v) {
+            public void onClick(View temp1) {
                 name = nameInput.getText().toString();
                 email = emailInput.getText().toString();
-                UserProfile profile = new UserProfile(name, email);
+                //UserProfile profile = new UserProfile(name, email);
                 Intent userData = new Intent(ProfileCreator.this, ProfileEditor.class);
-                userData.putExtra("Name", name);
-                userData.putExtra("Email", email);
+                //userData.putExtra("Name", name);
+                //userData.putExtra("Email", email);
                 startActivity(userData);
 
             }
@@ -49,11 +49,10 @@ public class ProfileCreator extends AppCompatActivity {
 
     }
 
-    public void goNightMode (View v)
-    {
+    public void goNightMode(View temp) {
         view.setBackgroundResource(R.color.nightmode);
     }
 
 
-    }
+}
 

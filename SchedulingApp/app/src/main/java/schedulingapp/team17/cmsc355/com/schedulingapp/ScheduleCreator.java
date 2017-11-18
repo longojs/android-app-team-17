@@ -72,34 +72,30 @@ public class ScheduleCreator extends AppCompatActivity {
     public void saveAndLeaveScreen(View view) {
         Intent userData = new Intent(ScheduleCreator.this, ProfileEditor.class);
 
-        userData.putExtra("Day", day);
-        userData.putExtra("StartTime", startTime);
-        userData.putExtra("EndTime", endTime);
+        //userData.putExtra("Day", day);
+        //userData.putExtra("StartTime", startTime);
+        //userData.putExtra("EndTime", endTime);
 
         startActivity(userData);
     }
     //currently operates correctly, final method will save information decided above into an event class
 
-    public void goOrange(View v)
-    {
+    public void goOrange(View temp) {
         view.setBackgroundResource(R.color.orange);
 
     }
 
-    public void goDeepOrange(View v)
-    {
+    public void goDeepOrange(View temp) {
         view.setBackgroundResource(R.color.deep_orange);
 
     }
 
-    public void goPink(View v)
-    {
+    public void goPink(View temp) {
         view.setBackgroundResource(R.color.pink);
 
     }
 
-    public void goGreen(View v)
-    {
+    public void goGreen(View temp) {
         view.setBackgroundResource(R.color.green);
 
     }
