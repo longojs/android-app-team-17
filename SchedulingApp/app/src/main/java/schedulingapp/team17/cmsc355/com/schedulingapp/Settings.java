@@ -20,7 +20,7 @@ public class Settings extends AppCompatActivity {
         {
             public void onClick(View view)
             {
-                Intent openTimeDifferences = new Intent(Settings.this, TimeDifferences.class); //Intent object to open main screen
+                Intent openTimeDifferences = new Intent(Settings.this, TimeDiff2.class); //Intent object to open main screen
                 startActivity(openTimeDifferences);
             }
         });
