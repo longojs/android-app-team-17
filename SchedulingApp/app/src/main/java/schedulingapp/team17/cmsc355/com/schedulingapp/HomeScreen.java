@@ -14,14 +14,8 @@ public class HomeScreen extends AppCompatActivity {
         setContentView(R.layout.activity_home_screen);
 
 
-
         view = this.getWindow().getDecorView();
         //view.setBackgroundResource(R.color.blue);
-
-
-
-
-
 
 
 

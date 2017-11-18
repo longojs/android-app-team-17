@@ -49,9 +49,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calendar"
+        android:layout_marginTop="28dp"
         android:layout_below="@+id/btnProfile"
-        android:layout_toStartOf="@+id/btnMessages"
-        android:layout_marginTop="28dp" />
+        android:layout_alignStart="@+id/btnProfile" />
 
     <Button
         android:id="@+id/btnDirectory"
