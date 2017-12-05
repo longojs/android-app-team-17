@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Time Differences"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="25dp" />
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="86dp" />
+
 </android.support.constraint.ConstraintLayout>
