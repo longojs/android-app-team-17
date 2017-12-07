@@ -44,7 +44,8 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".TimeDiff2"></activity>
+        <activity android:name=".TimeDiff2" />
+        <activity android:name=".Extras"></activity>
     </application>
 
 </manifest>

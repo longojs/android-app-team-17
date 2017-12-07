@@ -7,123 +7,26 @@
     tools:context="schedulingapp.team17.cmsc355.com.schedulingapp.HomeScreen">
 
     <Button
-        android:id="@+id/btnFindTime"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="54dp"
-        android:layout_marginTop="45dp"
-        android:text="Find a Time"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:id="@+id/btnMessages"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnFindTime"
-        android:layout_alignBottom="@+id/btnFindTime"
-        android:layout_marginStart="61dp"
-        android:layout_toEndOf="@+id/btnFindTime"
-        android:text="Messages" />
-
-    <Button
+        android:background="@drawable/buttonstyle"
         android:id="@+id/btnProfile"
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/btnFindTime"
-        android:layout_below="@+id/btnFindTime"
-        android:layout_marginTop="37dp"
-        android:text="Profile" />
-
-    <Button
-        android:id="@+id/btnPreferences"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Preferences"
-        android:layout_alignBaseline="@+id/btnProfile"
-        android:layout_alignBottom="@+id/btnProfile"
-        android:layout_alignEnd="@+id/btnMessages" />
-
-    <Button
-        android:id="@+id/btnCalendar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Calendar"
-        android:layout_marginTop="28dp"
-        android:layout_below="@+id/btnProfile"
-        android:layout_alignStart="@+id/btnProfile" />
-
-    <Button
-        android:id="@+id/btnDirectory"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Directory"
-        android:layout_alignTop="@+id/btnCalendar"
-        android:layout_alignEnd="@+id/btnSettings" />
-
-    <Button
-        android:id="@+id/btnAlarms"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Alarms"
-        android:layout_marginTop="107dp"
-        android:layout_below="@+id/btnProfile"
-        android:layout_alignStart="@+id/btnCalendar" />
-
-    <Button
-        android:id="@+id/btnSettings"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btnAlarms"
-        android:layout_alignBottom="@+id/btnAlarms"
-        android:layout_alignEnd="@+id/btnPreferences"
-        android:text="Settings" />
-
-    <Button
-        android:id="@+id/button28"
-        android:onClick="goRed"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/btnAlarms"
-        android:layout_below="@+id/btnAlarms"
-        android:layout_marginTop="43dp"
-        android:text="Red" />
-
-    <Button
-        android:id="@+id/button14"
-        android:onClick="goBlue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/button28"
-        android:layout_alignEnd="@+id/btnSettings"
-        android:text="Blue" />
-
-    <Button
-        android:id="@+id/button26"
-        android:onClick="goTeal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button27"
-        android:layout_alignBottom="@+id/button27"
-        android:layout_alignStart="@+id/button28"
-        android:text="Teal" />
-
-    <Button
-        android:id="@+id/button27"
-        android:onClick="goPurple"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/button14"
-        android:layout_below="@+id/button14"
-        android:layout_marginTop="15dp"
-        android:text="Purple" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="Profile Creator" />
 
     <TextView
         android:id="@+id/textView29"
+        android:layout_marginTop= "80dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="13dp"
-        android:text="Color Preferences"
-        android:layout_below="@+id/btnAlarms"
-        android:layout_toEndOf="@+id/btnProfile" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text='"APP NAME"'
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
 </RelativeLayout>
