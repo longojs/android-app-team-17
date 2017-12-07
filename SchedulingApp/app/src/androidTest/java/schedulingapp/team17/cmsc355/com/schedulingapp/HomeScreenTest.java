@@ -19,10 +19,10 @@ public class HomeScreenTest {
 
     private HomeScreen mActivity = null;
 
-
     @Before
     public void setUp() throws Exception {
-     mActivity = colorsActivityTestRule.getActivity();
+        mActivity = colorsActivityTestRule.getActivity();
+
     }
 
     @Test
@@ -44,5 +44,5 @@ public class HomeScreenTest {
     public void tearDown() throws Exception {
         mActivity = null;
     }
-
 }
+

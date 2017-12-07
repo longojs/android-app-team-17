@@ -21,8 +21,8 @@ public class ProfileEditor extends AppCompatActivity {
         // mainUser.addEvent(extras.getString("StartTime"), extras.getString("Day"), extras.getString("EndTime"));
     }
 
-    public void createProfile(View view) {
-        startActivity(new Intent(ProfileEditor.this, ProfileCreator.class));
+    public void buttonMessages(View view) {
+        startActivity(new Intent(ProfileEditor.this, MainActivityChatApp.class));
     }
 
     public void editProfile(View view) {
@@ -40,9 +40,6 @@ public class ProfileEditor extends AppCompatActivity {
     public void returnToHome(View view) {
         startActivity(new Intent(ProfileEditor.this, HomeScreen.class));
     }
-
-
-
 
 
 

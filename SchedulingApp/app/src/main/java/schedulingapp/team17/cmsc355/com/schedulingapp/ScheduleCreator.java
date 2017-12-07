@@ -85,11 +85,11 @@ public class ScheduleCreator extends AppCompatActivity {
 
     }
 
-    public void goDeepOrange(View temp) {
+    /*public void goDeepOrange(View temp) {
         view.setBackgroundResource(R.color.deep_orange);
 
     }
-
+*/
     public void goPink(View temp) {
         view.setBackgroundResource(R.color.pink);
 
