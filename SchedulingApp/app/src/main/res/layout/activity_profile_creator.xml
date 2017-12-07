@@ -27,37 +27,43 @@
         android:textSize="30sp"
          android:textStyle="bold"
         android:layout_gravity="center_horizontal"/>
-        <EditText
-            android:background="@drawable/edittextstyle"
-            android:hint="Username"
-            android:layout_marginTop="40dp"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"/>
+
             <EditText
-                android:background="@drawable/edittextstyle"
-                android:hint="Email"
+                android:id="@+id/nameInput"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="40dp"
+                android:background="@drawable/edittextstyle"
+                android:hint="Name" />
+
+            <EditText
+                android:id="@+id/emailInput"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"/>
-            <EditText
-                android:background="@drawable/edittextstyle"
-                android:hint="Password"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="40dp"
+                android:background="@drawable/edittextstyle"
+                android:hint="Email" />
+
+            <EditText
+                android:id="@+id/passwordInput"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"/>
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/edittextstyle"
+                android:hint="Password" />
 
             <Button
-                android:background="@drawable/buttonstyle"
-                android:text="Create"
-                android:textColor="@color/white"
+                android:id="@+id/submitButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="40dp"
-                />
+                android:background="@drawable/buttonstyle"
+                android:text="Create"
+                android:textColor="@color/white" />
             <LinearLayout
 
                 android:orientation="vertical"
