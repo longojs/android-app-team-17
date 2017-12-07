@@ -31,8 +31,8 @@ public class InfoEditor extends AppCompatActivity {
                 name = nameInput.getText().toString();
                 email = emailInput.getText().toString();
                 Intent userData = new Intent(InfoEditor.this, ProfileEditor.class);
-                userData.putExtra("Name", name);
-                userData.putExtra("Email", email);
+                //userData.putExtra("Name", name);
+                //userData.putExtra("Email", email);
                 startActivity(userData);
                 //on Next Iteration, this button will overwrite the data on the person's profile
             }

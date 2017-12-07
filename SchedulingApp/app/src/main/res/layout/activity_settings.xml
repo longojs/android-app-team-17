@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context="schedulingapp.team17.cmsc355.com.schedulingapp.Settings">
 
+    <Button
+        android:id="@+id/btnTimeDiff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Differences"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="25dp" />
 </android.support.constraint.ConstraintLayout>

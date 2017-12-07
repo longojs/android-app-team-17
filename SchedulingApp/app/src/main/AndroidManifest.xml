@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="schedulingapp.team17.cmsc355.com.schedulingapp">
-    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
@@ -36,10 +37,14 @@
         <activity android:name=".Calendar" />
         <activity android:name=".Directory" />
         <activity android:name=".Alarms" />
-        <activity android:name=".FindTime"></activity>
-        <receiver android:name=".AlarmReciever"
+        <activity android:name=".FindTime" />
+
+        <receiver
+            android:name=".AlarmReciever"
             android:enabled="true"
-            android:exported="true"/>
+            android:exported="true" />
+
+        <activity android:name=".TimeDiff2"></activity>
     </application>
 
 </manifest>

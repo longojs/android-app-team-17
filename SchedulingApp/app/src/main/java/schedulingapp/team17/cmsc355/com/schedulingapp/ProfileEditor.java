@@ -14,11 +14,11 @@ public class ProfileEditor extends AppCompatActivity {
 
         //Bundle extras = getIntent().getExtras();
 
-        //UserProfile mainUser = new UserProfile();
+        //UserProfile mainUser = new UserProfile();              //block of code gets uncommented in interation 3, does not work yet.
 
         //mainUser.setName(extras.getString("Name"));
-       // mainUser.setEmail(extras.getString("Email"));
-       // mainUser.addEvent(extras.getString("StartTime"), extras.getString("Day"), extras.getString("EndTime"));
+        // mainUser.setEmail(extras.getString("Email"));
+        // mainUser.addEvent(extras.getString("StartTime"), extras.getString("Day"), extras.getString("EndTime"));
     }
 
     public void createProfile(View view) {
