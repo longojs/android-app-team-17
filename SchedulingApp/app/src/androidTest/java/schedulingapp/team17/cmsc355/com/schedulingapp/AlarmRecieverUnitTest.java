@@ -35,7 +35,6 @@ public class AlarmRecieverUnitTest {
     public void tearDown() throws Exception {
         alarmsActivity = null;
         alarmReciever = null;
-
     }
 
 }
