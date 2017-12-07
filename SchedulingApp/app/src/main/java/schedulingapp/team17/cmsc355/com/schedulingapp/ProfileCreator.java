@@ -29,7 +29,11 @@ public class ProfileCreator extends AppCompatActivity {
         setContentView(R.layout.activity_profile_creator);
         nameInput = (EditText) findViewById(R.id.nameInput);
         emailInput = (EditText) findViewById(R.id.emailInput);
+
         //passwordInput = (EditText) findViewById(R.id.passwordInput);
+
+        passwordInput = (EditText) findViewById(R.id.passwordInput);
+
         view = this.getWindow().getDecorView();
         submitButton = (Button) findViewById(R.id.submitButton);
         submitButton.setOnClickListener(new View.OnClickListener() {
